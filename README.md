@@ -10,15 +10,19 @@ This project was developed using Python 3.5.2, Jupyter Notebook, and Google Cola
 
 ## Data
 
-The original sample dataset is from: https://github.com/alibaba/clusterdata/blob/master/cluster-trace-v2018/trace_2018.md. It has three variables: Timestamp, CPU %, Memory %. We cleaned the data by removing the NA's and converting the Timestamp values to a datetime object. Due to its large size, we divided the sample data into 6 different sets. We then visualized each of the sets.
+The original sample dataset is from: 
+  https://github.com/alibaba/clusterdata/blob/master/cluster-trace-v2018/trace_2018.md. 
+It has three variables: 
+  Timestamp, CPU %, Memory %. 
+We cleaned the data by removing the NA's and converting the Timestamp values to a datetime object. Due to its large size, we divided the sample data into 6 different sets. We then visualized each of the sets.
 
 ## Models
 
 The models that we used were:
-1. Triple Exponential Smoothing (Holt-Winter)
-1. SARIMA
-2. FB Prophet
-3. Long Short-Term Memory (LSTM) Recurrent Neural Network (RNN)
+  1. Triple Exponential Smoothing (Holt-Winter)
+  2. SARIMA
+  3. FB Prophet
+  4. Long Short-Term Memory (LSTM) Recurrent Neural Network (RNN)
 
 For each of the 6 example dataset, we trained the model on 75% of the sets while the remaining 25% were used at test sets. We then calculated the root mean squared error (RMSE) on each of the results to see which model performs the best statistically. From our work, we found that the LSTM had the best performance in terms of achieving the smallest errors. 
 
@@ -32,8 +36,13 @@ To implement the capacity function, create a cumulative function to add together
 
 ## News Release
 
-You can view our sample press release here: https://docs.google.com/document/d/12tpC1TapOLkOcyqBimZ5ln_Ju6pc-LKszKoEqjk-XqE/edit?usp=sharing
+You can view our sample press release here: 
+  https://docs.google.com/document/d/12tpC1TapOLkOcyqBimZ5ln_Ju6pc-LKszKoEqjk-XqE/edit?usp=sharing
 
 ## Authorship
 
-This project was made by 4 UC Berkeley seniors: Jae Hee (Robin) Yoo, Michael Deal, Lawrence Chang, Anh-Tu Lu. We can be contacted at ellierobin54@berkeley.edu, anhtulu@berkeley.edu, lchang23@berkeley.edu, michaelpdeal@berkeley.edu.
+This project was made by 4 UC Berkeley seniors: Jae Hee (Robin) Yoo, Michael Deal, Lawrence Chang, Anh-Tu Lu. We can be contacted at 
+  ellierobin54@berkeley.edu 
+  anhtulu@berkeley.edu 
+  lchang23@berkeley.edu
+  michaelpdeal@berkeley.edu
