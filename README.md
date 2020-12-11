@@ -18,7 +18,7 @@ It has three variables: <br/>
   ``` CPU % ``` : CPU in percentage<br/>
   ```Memory %```: Memory in percentage<br/>
   
-We cleaned the data by removing the NA's and converting the Timestamp values to a datetime object. Due to its large size, we divided the sample data into 6 different sets (```dx```,```dx2```,```dx3```,```dx4```,```dx5```,```dx6```). We then visualized each of the sets.
+We cleaned the data by removing the NA's and converting the Timestamp values to a datetime object. Due to its large size, we divided the sample data into 6 different sets (```data1```,```data2```,```data3```,```data4```,```data5```,```data6```). We then visualized each of the sets.
 
 ## Models
 
