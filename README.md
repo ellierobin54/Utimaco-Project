@@ -14,9 +14,9 @@ The original sample dataset is from:<br/>
 https://github.com/alibaba/clusterdata/blob/master/cluster-trace-v2018/trace_2018.md. 
   
 It has three variables: <br/>
-    ```Timestamp```: Time in second <br/>
-    ``` CPU % ``` : CPU in percentage<br/>
-    ```Memory %```: Memory in percentage<br/>
+  ```Timestamp```: Time in second <br/>
+  ``` CPU % ``` : CPU in percentage<br/>
+  ```Memory %```: Memory in percentage<br/>
   
 We cleaned the data by removing the NA's and converting the Timestamp values to a datetime object. Due to its large size, we divided the sample data into 6 different sets (```dx```,```dx2```,```dx3```,```dx4```,```dx5```,```dx6```). We then visualized each of the sets.
 
