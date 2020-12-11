@@ -23,12 +23,12 @@ We cleaned the data by removing the NA's and converting the Timestamp values to 
 ## Models
 
 The models that we used were:
-  1. Triple Exponential Smoothing (Holt-Winter)
-  2. SARIMA
-  3. FB Prophet
-  4. Long Short-Term Memory (LSTM) Recurrent Neural Network (RNN)
+  1. *Triple Exponential Smoothing (Holt-Winter)*
+  2. *SARIMA*
+  3. *FB Prophet*
+  4. *Long Short-Term Memory (LSTM) Recurrent Neural Network (RNN)*
 
-For each of the 6 example dataset, we trained the model on 75% of the sets while the remaining 25% were used at test sets. We then calculated the root mean squared error (RMSE) on each of the results to see which model performs the best statistically. From our work, we found that the LSTM had the best performance in terms of achieving the smallest errors. 
+For each of the 6 example dataset, we trained the model on 75% of the sets while the remaining 25% were used at test sets. We then calculated the root mean squared error (RMSE) on each of the results to see which model performs the best statistically. From our work, we found that the **LSTM** had the best performance in terms of achieving the smallest errors. 
 
 ## Product Implementation
 
@@ -54,3 +54,8 @@ This project was made by 4 UC Berkeley seniors:
   - Lawrence Chang: lchang23@berkeley.edu
   
   - Michael Deal: michaelpdeal@berkeley.edu
+  
+Please contact us for any questions or informations.
+
+
+
