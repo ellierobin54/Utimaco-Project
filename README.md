@@ -6,7 +6,7 @@ This project was created in UC Berkeley's Data X (IND ENG 135) class for Utimaco
 
 ## Set Up
 
-This project was developed using Python 3.5.2, Jupyter Notebook, and Google Colab. The packages utilized: numpy, pandas, matplotlib, sklearn, tensorflow, keras, fbprophet, pmdarima. Open the file 'code.ipynb' and run each individual cell to run code.
+This project was developed using Python 3.5.2, Jupyter Notebook, and Google Colab. The packages utilized: numpy, pandas, matplotlib, sklearn, tensorflow, keras, fbprophet, pmdarima. Open the file 'Utimaco_Project.ipynb' to read and run each individual cell to compile and run the code.
 
 ## Data
 
