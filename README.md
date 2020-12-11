@@ -11,7 +11,6 @@ This project was developed using Python 3.5.2, Jupyter Notebook, and Google Cola
 ## Data
 
 The original sample dataset is from: 
-
   https://github.com/alibaba/clusterdata/blob/master/cluster-trace-v2018/trace_2018.md. 
   
 It has three variables: 
