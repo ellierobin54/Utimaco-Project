@@ -11,9 +11,12 @@ This project was developed using Python 3.5.2, Jupyter Notebook, and Google Cola
 ## Data
 
 The original sample dataset is from: 
+
   https://github.com/alibaba/clusterdata/blob/master/cluster-trace-v2018/trace_2018.md. 
+  
 It has three variables: 
   Timestamp, CPU %, Memory %. 
+  
 We cleaned the data by removing the NA's and converting the Timestamp values to a datetime object. Due to its large size, we divided the sample data into 6 different sets. We then visualized each of the sets.
 
 ## Models
@@ -42,7 +45,11 @@ You can view our sample press release here:
 ## Authorship
 
 This project was made by 4 UC Berkeley seniors: Jae Hee (Robin) Yoo, Michael Deal, Lawrence Chang, Anh-Tu Lu. We can be contacted at 
+
   ellierobin54@berkeley.edu 
+  
   anhtulu@berkeley.edu 
+  
   lchang23@berkeley.edu
+  
   michaelpdeal@berkeley.edu
